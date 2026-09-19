@@ -1,0 +1,50 @@
+name: Publish exchange rates
+
+# Kurlar iş günü başına bir kez yayımlanıyor; altı saatte bir bakmak hem
+# yeni günü aynı gün yakalıyor hem de kaynağı yormuyor.
+on:
+  schedule:
+    - cron: "0 5,11,17,23 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: rates
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch rates
+        run: python3 scripts/build_rates.py
+
+      - name: Commit if changed
+        run: |
+          if [ -n "$(git status --porcelain public/rates.json)" ]; then
+            git config user.name "suba-rates"
+            git config user.email "actions@users.noreply.github.com"
+            git add public/rates.json
+            git commit -m "Rates for $(python3 -c 'import json;print(json.load(open("public/rates.json"))["date"])')"
+            git push
+          else
+            echo "Değişiklik yok."
+          fi
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+      - id: deploy
+        uses: actions/deploy-pages@v4
