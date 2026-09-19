@@ -33,7 +33,7 @@ jobs:
       - name: Commit if changed
         run: |
           if [ -n "$(git status --porcelain public/rates.json)" ]; then
-            git config user.name "suba-rates"
+            git config user.name "rates-bot"
             git config user.email "actions@users.noreply.github.com"
             git add public/rates.json
             git commit -m "Rates for $(python3 -c 'import json;print(json.load(open("public/rates.json"))["date"])')"

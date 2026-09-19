@@ -1,17 +1,21 @@
-# suba-rates
+# rates
 
-Suba'nın kur dosyası.
+European Central Bank daily reference rates, published as a single JSON file.
 
-Uygulama farklı para birimlerindeki ödemeleri ana para biriminde toplarken
-Avrupa Merkez Bankası'nın günlük referans kurlarını kullanıyor. Her telefonun
-ücretsiz kur servisine ayrı ayrı gitmesi yerine kurlar burada günde birkaç kez
-okunup tek bir dosya olarak yayımlanıyor: <https://rates.suba.info/rates.json>
+<https://rates.suba.info/rates.json>
 
-- `scripts/build_rates.py` — kaynaktan okuyup `public/rates.json` üretir.
-  Birincil kaynak frankfurter.dev, yedeği ECB'nin kendi XML dosyası.
-- `.github/workflows/rates.yml` — altı saatte bir çalışır, değişiklik varsa
-  işler ve GitHub Pages'e yayımlar.
+```json
+{ "base": "EUR", "date": "2026-09-18", "rates": { "USD": 1.0842, "TRY": 55.907, … } }
+```
 
-Uygulamanın içinde bir de anlık görüntü var: ilk açılışta, çevrimdışıyken ve
-bu dosyaya ulaşılamadığında o kullanılıyor. Kur bulunamayan bir para birimi
-toplama hiç katılmaz; uydurulmuş bir rakam eksik rakamdan kötüdür.
+The point is to read the source a few times a day in one place instead of
+having every client query a free rate service on its own.
+
+- `scripts/build_rates.py` — fetches the rates and writes `public/rates.json`.
+  Primary source frankfurter.dev, falling back to the ECB's own XML feed.
+  Nothing is written when the table is unchanged.
+- `.github/workflows/rates.yml` — runs every six hours, commits a changed
+  table and deploys it to GitHub Pages.
+
+The ECB publishes once per business day, so at weekends Friday's rates stand.
+No request to this file carries anything but the request itself.

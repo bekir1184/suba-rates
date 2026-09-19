@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Avrupa Merkez Bankası kurlarını okuyup Suba'nın beklediği dosyayı üretir.
+"""Reads European Central Bank reference rates and writes the published file.
 
-Uygulamanın her kopyası ücretsiz kur servisine gitmesin diye kurları burada
-bir kez okuyup yayımlıyoruz. Dosya küçük (~1 KB) ve CDN arkasında duruyor.
+Clients read one small file (~1 KB, behind a CDN) instead of each copy
+querying a free rate service on its own.
 
-Birincil kaynak frankfurter.dev (ECB verisini JSON olarak veriyor); o
-ulaşılamazsa ECB'nin kendi XML dosyası okunur. İkisi de olmazsa elimizdeki
-dosyaya dokunulmaz — eski ama doğru bir kur, hiç kur olmamasından iyidir.
+Primary source frankfurter.dev, which serves the ECB data as JSON; if that is
+unreachable the ECB's own XML feed is read instead. If neither answers the
+existing file is left alone — an old but correct rate beats no rate at all.
 """
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ ECB_XML = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml"
 
 
 def fetch(url: str) -> bytes:
-    request = urllib.request.Request(url, headers={"User-Agent": "suba-rates/1.0"})
+    request = urllib.request.Request(url, headers={"User-Agent": "rates-builder/1.0"})
     with urllib.request.urlopen(request, timeout=30) as response:
         return response.read()
 

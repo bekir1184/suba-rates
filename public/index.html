@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Suba exchange rates</title>
+<title>Exchange rates</title>
 <style>
   :root { color-scheme: light dark; }
   body { margin: 0; min-height: 100dvh; display: grid; place-items: center;
@@ -15,12 +15,11 @@
   code { background: rgba(127,127,127,.15); padding: 2px 6px; border-radius: 6px; }
 </style>
 <main>
-  <h1>Suba exchange rates</h1>
-  <p>Suba reads European Central Bank reference rates from a single published
-     file, so the app never queries a public rate service once per person.</p>
-  <p>The file lives at <code><a href="rates.json">rates.json</a></code> and is
-     refreshed a few times a day. Rates are published by the ECB once per
-     business day; at weekends Friday's rates apply.</p>
-  <p>Nothing about anyone using Suba is sent here — the app asks what the rates
-     are, nothing else.</p>
+  <h1>Exchange rates</h1>
+  <p>European Central Bank reference rates, published as one file:
+     <code><a href="rates.json">rates.json</a></code>, refreshed a few times
+     a day.</p>
+  <p>The ECB publishes once per business day; at weekends Friday's rates
+     apply.</p>
+  <p>Nothing but the request itself reaches this host.</p>
 </main>
