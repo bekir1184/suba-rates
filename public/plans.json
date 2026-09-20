@@ -1,0 +1,259 @@
+{
+  "names" : {
+    "amazon-prime" : "amazon-prime",
+    "apple-music" : "apple-music",
+    "disney-plus" : "disney-plus",
+    "icloud" : "icloud",
+    "netflix" : "netflix",
+    "spotify" : "spotify",
+    "youtube" : "youtube"
+  },
+  "note" : "US prices are the verified list prices we already shipped. TR prices are PLACEHOLDER test data and must be replaced with verified figures before release.",
+  "services" : {
+    "amazon-prime" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "monthly",
+            "name" : "Aylık",
+            "price" : "39.00"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "monthly",
+            "name" : "Monthly",
+            "price" : "14.99"
+          }
+        ]
+      }
+    },
+    "apple-music" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Bireysel",
+            "price" : "69.99"
+          },
+          {
+            "detail" : "6 kişi",
+            "id" : "family",
+            "name" : "Aile",
+            "price" : "109.99"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "10.99"
+          },
+          {
+            "detail" : "6 people",
+            "id" : "family",
+            "name" : "Family",
+            "price" : "16.99"
+          }
+        ]
+      }
+    },
+    "disney-plus" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "standard",
+            "name" : "Standart",
+            "price" : "134.99"
+          }
+        ]
+      }
+    },
+    "icloud" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "50gb",
+            "name" : "50 GB",
+            "price" : "19.99"
+          },
+          {
+            "id" : "200gb",
+            "name" : "200 GB",
+            "price" : "59.99"
+          },
+          {
+            "id" : "2tb",
+            "name" : "2 TB",
+            "price" : "199.99"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "50gb",
+            "name" : "50 GB",
+            "price" : "0.99"
+          },
+          {
+            "id" : "200gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "2tb",
+            "name" : "2 TB",
+            "price" : "9.99"
+          }
+        ]
+      }
+    },
+    "netflix" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "detail" : "1080p, 2 cihaz",
+            "id" : "ads",
+            "name" : "Reklamlı",
+            "price" : "149.99"
+          },
+          {
+            "detail" : "1080p, 2 cihaz",
+            "id" : "standard",
+            "name" : "Standart",
+            "price" : "229.99"
+          },
+          {
+            "detail" : "4K, 4 cihaz",
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "379.99"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "detail" : "1080p, 2 devices",
+            "id" : "ads",
+            "name" : "With ads",
+            "price" : "7.99"
+          },
+          {
+            "detail" : "1080p, 2 devices",
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "17.99"
+          },
+          {
+            "detail" : "4K, 4 devices",
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "24.99"
+          }
+        ]
+      }
+    },
+    "spotify" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Bireysel",
+            "price" : "89.99"
+          },
+          {
+            "detail" : "2 hesap",
+            "id" : "duo",
+            "name" : "Duo",
+            "price" : "119.99"
+          },
+          {
+            "detail" : "6 hesap",
+            "id" : "family",
+            "name" : "Aile",
+            "price" : "149.99"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "11.99"
+          },
+          {
+            "detail" : "2 accounts",
+            "id" : "duo",
+            "name" : "Duo",
+            "price" : "16.99"
+          },
+          {
+            "detail" : "6 accounts",
+            "id" : "family",
+            "name" : "Family",
+            "price" : "19.99"
+          }
+        ]
+      }
+    },
+    "youtube" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Bireysel",
+            "price" : "99.99"
+          },
+          {
+            "detail" : "5 üye",
+            "id" : "family",
+            "name" : "Aile",
+            "price" : "179.99"
+          },
+          {
+            "detail" : "Test açıklaması",
+            "id" : "test",
+            "name" : "Test",
+            "price" : "229.99"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "13.99"
+          },
+          {
+            "detail" : "5 members",
+            "id" : "family",
+            "name" : "Family",
+            "price" : "22.99"
+          }
+        ]
+      }
+    }
+  },
+  "updated" : "2026-09-20T12:42:19Z"
+}
