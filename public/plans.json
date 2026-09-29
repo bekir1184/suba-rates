@@ -2,6 +2,7 @@
   "names" : {
     "amazon-prime" : "amazon-prime",
     "apple-music" : "apple-music",
+    "apple-tv" : "Apple TV",
     "disney-plus" : "disney-plus",
     "icloud" : "icloud",
     "netflix" : "netflix",
@@ -33,19 +34,30 @@
       }
     },
     "apple-music" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
           {
             "id" : "individual",
             "name" : "Bireysel",
-            "price" : "69.99"
+            "price" : "89.99"
           },
           {
             "detail" : "6 kişi",
             "id" : "family",
             "name" : "Aile",
-            "price" : "109.99"
+            "price" : "149.99"
+          },
+          {
+            "id" : "student",
+            "name" : "Öğrenci",
+            "price" : "49.99"
           }
         ]
       },
@@ -63,6 +75,14 @@
             "name" : "Family",
             "price" : "16.99"
           }
+        ]
+      }
+    },
+    "apple-tv" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+
         ]
       }
     },
@@ -125,21 +145,33 @@
         "currency" : "TRY",
         "plans" : [
           {
-            "detail" : "1080p, 2 cihaz",
-            "id" : "ads",
-            "name" : "Reklamlı",
-            "price" : "149.99"
+            "id" : "netflix-basic",
+            "name" : "Netflix Basic",
+            "price" : "189.99"
           },
           {
-            "detail" : "1080p, 2 cihaz",
-            "id" : "standard",
-            "name" : "Standart",
-            "price" : "229.99"
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "289.99"
           },
           {
-            "detail" : "4K, 4 cihaz",
-            "id" : "premium",
-            "name" : "Premium",
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "379.99"
+          },
+          {
+            "id" : "netflix-2-screens-unlimited-streaming",
+            "name" : "Netflix 2 Screens - Unlimited Streaming",
+            "price" : "289.99"
+          },
+          {
+            "id" : "netflix-1-screen-unlimited-streaming",
+            "name" : "Netflix 1 Screen - Unlimited Streaming",
+            "price" : "189.99"
+          },
+          {
+            "id" : "netflix-4-screens-unlimited-streaming",
+            "name" : "Netflix 4 Screens - Unlimited Streaming",
             "price" : "379.99"
           }
         ]
@@ -215,25 +247,29 @@
       }
     },
     "youtube" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
           {
-            "id" : "individual",
-            "name" : "Bireysel",
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "159.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "319.99"
+          },
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
             "price" : "99.99"
-          },
-          {
-            "detail" : "5 üye",
-            "id" : "family",
-            "name" : "Aile",
-            "price" : "179.99"
-          },
-          {
-            "detail" : "Test açıklaması",
-            "id" : "test",
-            "name" : "Test",
-            "price" : "229.99"
           }
         ]
       },
@@ -241,19 +277,23 @@
         "currency" : "USD",
         "plans" : [
           {
-            "id" : "individual",
-            "name" : "Individual",
-            "price" : "13.99"
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "20.99"
           },
           {
-            "detail" : "5 members",
-            "id" : "family",
-            "name" : "Family",
-            "price" : "22.99"
+            "id" : "youtube-premium-family",
+            "name" : "Youtube Premium Family",
+            "price" : "34.99"
+          },
+          {
+            "id" : "movies-shows",
+            "name" : "Movies & Shows",
+            "price" : "5.99"
           }
         ]
       }
     }
   },
-  "updated" : "2026-09-20T12:42:19Z"
+  "updated" : "2026-09-29T10:36:31Z"
 }
