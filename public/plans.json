@@ -163,21 +163,6 @@
             "id" : "netflix-premium",
             "name" : "Netflix Premium",
             "price" : "379.99"
-          },
-          {
-            "id" : "netflix-2-screens-unlimited-streaming",
-            "name" : "Netflix 2 Screens - Unlimited Streaming",
-            "price" : "289.99"
-          },
-          {
-            "id" : "netflix-1-screen-unlimited-streaming",
-            "name" : "Netflix 1 Screen - Unlimited Streaming",
-            "price" : "189.99"
-          },
-          {
-            "id" : "netflix-4-screens-unlimited-streaming",
-            "name" : "Netflix 4 Screens - Unlimited Streaming",
-            "price" : "379.99"
           }
         ]
       },
@@ -300,5 +285,5 @@
       }
     }
   },
-  "updated" : "2026-09-29T10:49:10Z"
+  "updated" : "2026-10-01T22:12:06Z"
 }
