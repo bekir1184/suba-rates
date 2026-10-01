@@ -4,6 +4,7 @@
     "apple-music" : "apple-music",
     "apple-tv" : "Apple TV",
     "disney-plus" : "disney-plus",
+    "exxen" : "Exxen",
     "icloud" : "icloud",
     "netflix" : "netflix",
     "spotify" : "spotify",
@@ -99,6 +100,33 @@
             "id" : "standard",
             "name" : "Standart",
             "price" : "134.99"
+          }
+        ]
+      }
+    },
+    "exxen" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Reklamlı ",
+            "price" : "275"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Reklamsız",
+            "price" : "388"
+          },
+          {
+            "id" : "plan3",
+            "name" : "Exxenspor Reklamlı",
+            "price" : "486"
+          },
+          {
+            "id" : "plan4",
+            "name" : "Exxenspor Reklamsız",
+            "price" : "599"
           }
         ]
       }
@@ -285,5 +313,5 @@
       }
     }
   },
-  "updated" : "2026-10-01T22:12:06Z"
+  "updated" : "2026-10-01T23:57:09Z"
 }
