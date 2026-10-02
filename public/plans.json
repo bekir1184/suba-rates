@@ -3,12 +3,19 @@
     "amazon-prime" : "amazon-prime",
     "apple-music" : "apple-music",
     "apple-tv" : "Apple TV",
+    "bein-connect" : "beIN CONNECT",
+    "chatgpt" : "ChatGPT",
     "disney-plus" : "disney-plus",
     "exxen" : "Exxen",
+    "fizy" : "fizy",
+    "gain" : "Gain",
     "icloud" : "icloud",
     "netflix" : "netflix",
     "spotify" : "spotify",
-    "youtube" : "youtube"
+    "tod" : "TOD",
+    "tv-plus" : "TV+",
+    "youtube" : "youtube",
+    "youtube-music" : "YouTube Music"
   },
   "note" : "US prices are the verified list prices we already shipped. TR prices are PLACEHOLDER test data and must be replaced with verified figures before release.",
   "services" : {
@@ -92,6 +99,55 @@
         ]
       }
     },
+    "bein-connect" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Taraftar Paketi (Kutusuz)",
+            "price" : "479 "
+          },
+          {
+            "id" : "plan2",
+            "name" : "Yıldız Dolu Paketi (Kutusuz)",
+            "price" : "599"
+          }
+        ]
+      }
+    },
+    "chatgpt" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Go",
+            "price" : "249,99"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Plus",
+            "price" : "999,99"
+          },
+          {
+            "id" : "plan3",
+            "name" : "Pro 100",
+            "price" : "5.299,99"
+          },
+          {
+            "id" : "plan4",
+            "name" : "Pro 200",
+            "price" : "9.999,99"
+          },
+          {
+            "id" : "plan5",
+            "name" : "Pro 500",
+            "price" : "26.499,99"
+          }
+        ]
+      }
+    },
     "disney-plus" : {
       "TR" : {
         "currency" : "TRY",
@@ -127,6 +183,40 @@
             "id" : "plan4",
             "name" : "Exxenspor Reklamsız",
             "price" : "599"
+          }
+        ]
+      }
+    },
+    "fizy" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Premium+",
+            "price" : "149,99 "
+          },
+          {
+            "id" : "plan2",
+            "name" : "Bireysel Müzik",
+            "price" : "69,99 "
+          },
+          {
+            "id" : "plan3",
+            "name" : "Öğrenci Müzik",
+            "price" : "20,99"
+          }
+        ]
+      }
+    },
+    "gain" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Premium",
+            "price" : "249"
           }
         ]
       }
@@ -264,6 +354,55 @@
         ]
       }
     },
+    "tod" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Süper Dolu Paketi (Sezonluk)",
+            "price" : "479"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Süper Lig Paketi(Aylık)",
+            "price" : " 1.590"
+          },
+          {
+            "id" : "plan3",
+            "name" : "Taraftar Paketi (Sezonluk)",
+            "price" : "419"
+          },
+          {
+            "id" : "plan4",
+            "name" : "Spor Extra Paketi (Yıllık/Taksitli)",
+            "price" : "229"
+          },
+          {
+            "id" : "plan5",
+            "name" : "Spor Extra Paketi (Aylık)",
+            "price" : "129"
+          }
+        ]
+      }
+    },
+    "tv-plus" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Aylık Paket",
+            "price" : "229,99"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Yıllık Paket (12 Ay Sözleşmeli)",
+            "price" : "199,99 "
+          }
+        ]
+      }
+    },
     "youtube" : {
       "GB" : {
         "currency" : "GBP",
@@ -311,7 +450,29 @@
           }
         ]
       }
+    },
+    "youtube-music" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Bireysel",
+            "price" : "89.99"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Aile",
+            "price" : "149.99"
+          },
+          {
+            "id" : "plan3",
+            "name" : "Öğrenci",
+            "price" : "49.99"
+          }
+        ]
+      }
     }
   },
-  "updated" : "2026-10-01T23:57:09Z"
+  "updated" : "2026-10-02T00:05:46Z"
 }
