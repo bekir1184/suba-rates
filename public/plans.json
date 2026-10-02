@@ -25,13 +25,8 @@
         "plans" : [
           {
             "id" : "monthly",
-            "name" : "PREMIUM",
-            "price" : "449.99"
-          },
-          {
-            "id" : "basic",
-            "name" : "BASIC",
-            "price" : "249.99"
+            "name" : "Prime",
+            "price" : "69.90"
           }
         ]
       },
@@ -474,5 +469,5 @@
       }
     }
   },
-  "updated" : "2026-10-02T00:57:56Z"
+  "updated" : "2026-10-02T15:04:11Z"
 }
