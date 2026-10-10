@@ -28,6 +28,16 @@
   "note" : "US prices are the verified list prices we already shipped. TR prices are PLACEHOLDER test data and must be replaced with verified figures before release.",
   "services" : {
     "amazon-prime" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "ad-free",
+            "name" : "Ad free",
+            "price" : "2.99"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -53,7 +63,21 @@
       "GB" : {
         "currency" : "GBP",
         "plans" : [
-
+          {
+            "id" : "plan1",
+            "name" : "Individual",
+            "price" : "11.99"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Family",
+            "price" : "19.99"
+          },
+          {
+            "id" : "plan3",
+            "name" : "Student",
+            "price" : "5.99"
+          }
         ]
       },
       "TR" : {
@@ -256,6 +280,26 @@
       }
     },
     "disney-plus" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "14.99"
+          },
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "9.99"
+          },
+          {
+            "id" : "disney-standard-with-ads",
+            "name" : "Disney+ Standard with Ads",
+            "price" : "5.99"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -393,6 +437,36 @@
       }
     },
     "icloud" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "50 GB",
+            "price" : "0.99"
+          },
+          {
+            "id" : "plan2",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "plan3",
+            "name" : "2 TB",
+            "price" : "8.99"
+          },
+          {
+            "id" : "plan4",
+            "name" : "6 TB",
+            "price" : "26.99"
+          },
+          {
+            "id" : "plan5",
+            "name" : "12 TB",
+            "price" : "54.99"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -480,6 +554,46 @@
       }
     },
     "netflix" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "netflix",
+            "name" : "Netflix",
+            "price" : "12.99"
+          },
+          {
+            "id" : "netflix-2s-plan",
+            "name" : "Netflix 2S Plan",
+            "price" : "12.99"
+          },
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "12.99"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "18.99"
+          },
+          {
+            "id" : "netflix-2-screens-unlimited-streaming",
+            "name" : "Netflix 2 Screens - Unlimited Streaming",
+            "price" : "12.99"
+          },
+          {
+            "id" : "netflix-4-screens-unlimited-streaming",
+            "name" : "Netflix 4 Screens - Unlimited Streaming",
+            "price" : "18.99"
+          },
+          {
+            "id" : "netflix-4s-plan",
+            "name" : "Netflix 4S Plan",
+            "price" : "18.99"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -601,6 +715,21 @@
       }
     },
     "spotify" : {
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Individual",
+            "price" : "12.99"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Family",
+            "price" : "21.99"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -699,7 +828,31 @@
       "GB" : {
         "currency" : "GBP",
         "plans" : [
-
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "16.99"
+          },
+          {
+            "id" : "movies-shows",
+            "name" : "Movies & Shows",
+            "price" : "3.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "Youtube Premium Family",
+            "price" : "25.99"
+          },
+          {
+            "id" : "youtube-premium-family-2",
+            "name" : "YouTube Premium Family",
+            "price" : "25.99"
+          },
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "10.49"
+          }
         ]
       },
       "TR" : {
@@ -796,5 +949,5 @@
       }
     }
   },
-  "updated" : "2026-10-10T17:03:11Z"
+  "updated" : "2026-10-10T17:32:15Z"
 }
