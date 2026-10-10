@@ -10,6 +10,7 @@
     "fizy" : "fizy",
     "gain" : "Gain",
     "icloud" : "icloud",
+    "max" : "HBO Max",
     "netflix" : "netflix",
     "spotify" : "spotify",
     "tod" : "TOD",
@@ -258,6 +259,23 @@
         ]
       }
     },
+    "max" : {
+      "TR" : {
+        "currency" : "TRY",
+        "plans" : [
+          {
+            "id" : "plan1",
+            "name" : "Premium",
+            "price" : "299,98"
+          },
+          {
+            "id" : "plan2",
+            "name" : "Standart",
+            "price" : "229.92"
+          }
+        ]
+      }
+    },
     "netflix" : {
       "TR" : {
         "currency" : "TRY",
@@ -469,5 +487,5 @@
       }
     }
   },
-  "updated" : "2026-10-04T02:45:34Z"
+  "updated" : "2026-10-10T16:37:37Z"
 }
