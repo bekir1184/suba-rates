@@ -2,16 +2,23 @@
   "names" : {
     "amazon-prime" : "amazon-prime",
     "apple-music" : "apple-music",
+    "apple-tv" : "Apple TV",
     "audible" : "Audible",
     "bein-connect" : "beIN CONNECT",
     "chatgpt" : "ChatGPT",
     "disney-plus" : "disney-plus",
+    "duolingo" : "Duolingo",
     "exxen" : "Exxen",
     "fizy" : "fizy",
     "gain" : "Gain",
+    "hulu" : "Hulu",
     "icloud" : "icloud",
     "max" : "HBO Max",
+    "microsoft-365" : "Microsoft 365",
     "netflix" : "netflix",
+    "paramount-plus" : "Paramount+",
+    "peacock" : "Peacock",
+    "siriusxm" : "SiriusXM",
     "spotify" : "spotify",
     "tod" : "TOD",
     "tv-plus" : "TV+",
@@ -142,6 +149,31 @@
             "price" : "399.99"
           }
         ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "us-premium-monthly",
+            "name" : "US Premium Monthly",
+            "price" : "15.99"
+          },
+          {
+            "id" : "us-premium-plus-monthly",
+            "name" : "US Premium Plus Monthly",
+            "price" : "15.99"
+          },
+          {
+            "id" : "us-plus-monthly",
+            "name" : "US Plus Monthly",
+            "price" : "7.99"
+          },
+          {
+            "id" : "audible-ios-standard-plan",
+            "name" : "Audible iOS Standard Plan",
+            "price" : "9.99"
+          }
+        ]
       }
     },
     "bein-connect" : {
@@ -191,6 +223,36 @@
             "price" : "26500"
           }
         ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "19.99"
+          },
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "8.00"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "100.00"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "200.00"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "500.00"
+          }
+        ]
       }
     },
     "disney-plus" : {
@@ -201,6 +263,53 @@
             "id" : "standard",
             "name" : "Standart",
             "price" : "134.99"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "21.49"
+          },
+          {
+            "id" : "disney-basic-monthly",
+            "name" : "Disney+ Basic Monthly",
+            "price" : "12.49"
+          },
+          {
+            "id" : "disney-bundle-duo-basic",
+            "name" : "Disney Bundle Duo Basic",
+            "price" : "12.99"
+          },
+          {
+            "id" : "disney-hulu-bundle-premium",
+            "name" : "Disney+, Hulu Bundle Premium",
+            "price" : "21.99"
+          }
+        ]
+      }
+    },
+    "duolingo" : {
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "super-duolingo",
+            "name" : "Super Duolingo",
+            "price" : "9.99"
+          },
+          {
+            "id" : "chest-of-gems",
+            "name" : "Chest of Gems",
+            "price" : "0.99"
+          },
+          {
+            "id" : "chest-of-gems-1200",
+            "name" : "Chest of Gems (1200)",
+            "price" : "4.99"
           }
         ]
       }
@@ -266,6 +375,23 @@
         ]
       }
     },
+    "hulu" : {
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "hulu",
+            "name" : "Hulu",
+            "price" : "12.49"
+          },
+          {
+            "id" : "hulu-no-ads",
+            "name" : "Hulu (No Ads)",
+            "price" : "21.49"
+          }
+        ]
+      }
+    },
     "icloud" : {
       "TR" : {
         "currency" : "TRY",
@@ -323,6 +449,34 @@
             "price" : "229.92"
           }
         ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "standard-monthly",
+            "name" : "Standard Monthly",
+            "price" : "18.49"
+          },
+          {
+            "id" : "basic-with-ads-monthly",
+            "name" : "Basic With Ads Monthly",
+            "price" : "10.99"
+          },
+          {
+            "id" : "premium-monthly",
+            "name" : "Premium Monthly",
+            "price" : "22.99"
+          }
+        ]
+      }
+    },
+    "microsoft-365" : {
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+
+        ]
       }
     },
     "netflix" : {
@@ -366,6 +520,82 @@
             "id" : "premium",
             "name" : "Premium",
             "price" : "24.99"
+          }
+        ]
+      }
+    },
+    "paramount-plus" : {
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "paramount-premium",
+            "name" : "Paramount+ Premium",
+            "price" : "13.99"
+          },
+          {
+            "id" : "paramount-essential",
+            "name" : "Paramount+ Essential",
+            "price" : "8.99"
+          },
+          {
+            "id" : "paramount-limited-commercials",
+            "name" : "Paramount+ Limited Commercials",
+            "price" : "9.99"
+          },
+          {
+            "id" : "paramount-essential-monthly",
+            "name" : "Paramount+ Essential: Monthly",
+            "price" : "8.99"
+          }
+        ]
+      }
+    },
+    "peacock" : {
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "peacock-premium",
+            "name" : "Peacock Premium",
+            "price" : "12.99"
+          },
+          {
+            "id" : "peacock-premium-plus",
+            "name" : "Peacock Premium Plus",
+            "price" : "19.99"
+          },
+          {
+            "id" : "peacock-select-monthly",
+            "name" : "Peacock Select Monthly",
+            "price" : "8.99"
+          },
+          {
+            "id" : "apple-tv-and-peacock-premium",
+            "name" : "Apple TV and Peacock Premium",
+            "price" : "17.99"
+          },
+          {
+            "id" : "apple-tv-and-peacock-premium-plus",
+            "name" : "Apple TV and Peacock Premium Plus",
+            "price" : "22.99"
+          }
+        ]
+      }
+    },
+    "siriusxm" : {
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "all-access-app-only",
+            "name" : "All Access (App Only)",
+            "price" : "11.99"
+          },
+          {
+            "id" : "streaming-music-entmnt",
+            "name" : "Streaming Music & Entmnt",
+            "price" : "11.99"
           }
         ]
       }
@@ -533,8 +763,38 @@
             "price" : "49.99"
           }
         ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "15.99"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "20.99"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "24.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "34.99"
+          },
+          {
+            "id" : "youtube-red",
+            "name" : "YouTube Red",
+            "price" : "20.99"
+          }
+        ]
       }
     }
   },
-  "updated" : "2026-10-10T16:51:04Z"
+  "updated" : "2026-10-10T17:03:11Z"
 }
