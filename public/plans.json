@@ -27,6 +27,113 @@
   },
   "note" : "US prices are the verified list prices we already shipped. TR prices are PLACEHOLDER test data and must be replaced with verified figures before release.",
   "services" : {
+    "amazon-music" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "27.90"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "48.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "13.99"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "24.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "13.99"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "24.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "12.99"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "22.99"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "13.99"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "24.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "13.99"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "24.99"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "individual",
+            "name" : "Individual",
+            "price" : "159"
+          },
+          {
+            "id" : "family",
+            "name" : "Family",
+            "price" : "269"
+          }
+        ]
+      }
+    },
     "amazon-prime" : {
       "GB" : {
         "currency" : "GBP",
@@ -119,6 +226,126 @@
       }
     },
     "audible" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "49.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "7.99"
+          },
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "10.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "9.99"
+          },
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "10.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "6.99"
+          },
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "10.99"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "5.99"
+          },
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "9.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "9.99"
+          },
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "10.99"
+          }
+        ]
+      },
+      "JP" : {
+        "currency" : "JPY",
+        "plans" : [
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "1500"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "14000"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "149"
+          },
+          {
+            "id" : "audible-premium",
+            "name" : "Audible Premium",
+            "price" : "229"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -174,6 +401,16 @@
           }
         ]
       },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "audible-standard",
+            "name" : "Audible Standard",
+            "price" : "320"
+          }
+        ]
+      },
       "US" : {
         "currency" : "USD",
         "plans" : [
@@ -218,6 +455,246 @@
       }
     },
     "chatgpt" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "39.90"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "99.90"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "524.90"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "999.90"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "2599.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "7.99"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "22.99"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "102.99"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "229.00"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "509.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "7.99"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "22.99"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "102.99"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "229.00"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "509.99"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "6.99"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "19.99"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "88.90"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "200.00"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "444.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "7.99"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "22.99"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "102.99"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "229.00"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "509.99"
+          }
+        ]
+      },
+      "JP" : {
+        "currency" : "JPY",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "1400"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "3000"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "16800"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "30000"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "84000"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "13000"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "29000"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "159000"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "299000"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "790000"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "129"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "399"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "1989"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "3999"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "9899"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -245,6 +722,36 @@
             "id" : "plan5",
             "name" : "Pro 500",
             "price" : "26500"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "chatgpt-go",
+            "name" : "ChatGPT Go",
+            "price" : "270"
+          },
+          {
+            "id" : "chatgpt-plus",
+            "name" : "ChatGPT Plus",
+            "price" : "690"
+          },
+          {
+            "id" : "chatgpt-pro-100",
+            "name" : "ChatGPT Pro 100",
+            "price" : "3300"
+          },
+          {
+            "id" : "chatgpt-pro-200",
+            "name" : "ChatGPT Pro 200",
+            "price" : "6990"
+          },
+          {
+            "id" : "chatgpt-pro-500",
+            "name" : "ChatGPT Pro 500",
+            "price" : "16500"
           }
         ]
       },
@@ -279,7 +786,239 @@
         ]
       }
     },
+    "crunchyroll" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "19.90"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "24.90"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "52.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "8.99"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "11.99"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "14.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "5.99"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "7.49"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "14.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "6.99"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "8.99"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "14.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "5.99"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "7.49"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "14.99"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "9900"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "10900"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "129"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "159"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "289"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "fan",
+            "name" : "Fan",
+            "price" : "120"
+          },
+          {
+            "id" : "mega-fan",
+            "name" : "Mega Fan",
+            "price" : "135"
+          },
+          {
+            "id" : "ultimate-fan",
+            "name" : "Ultimate Fan",
+            "price" : "470"
+          }
+        ]
+      }
+    },
     "disney-plus" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "49.90"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "69.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "disney-standard-with-ads",
+            "name" : "Disney+ Standard with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "10.99"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "15.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "disney-standard-with-ads",
+            "name" : "Disney+ Standard with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "10.99"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "15.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "disney-standard-with-ads",
+            "name" : "Disney+ Standard with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "10.99"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "15.99"
+          }
+        ]
+      },
       "GB" : {
         "currency" : "GBP",
         "plans" : [
@@ -300,6 +1039,71 @@
           }
         ]
       },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "disney-standard-with-ads",
+            "name" : "Disney+ Standard with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "10.99"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "15.99"
+          }
+        ]
+      },
+      "JP" : {
+        "currency" : "JPY",
+        "plans" : [
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "1250"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "1670"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "9900"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "13900"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "259"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "339"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -307,6 +1111,21 @@
             "id" : "standard",
             "name" : "Standart",
             "price" : "134.99"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "disney-standard",
+            "name" : "Disney+ Standard",
+            "price" : "285"
+          },
+          {
+            "id" : "disney-premium",
+            "name" : "Disney+ Premium",
+            "price" : "335"
           }
         ]
       },
@@ -337,6 +1156,46 @@
       }
     },
     "duolingo" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "super-duolingo",
+            "name" : "Super Duolingo",
+            "price" : "31.90"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "super-duolingo",
+            "name" : "Super Duolingo",
+            "price" : "10.49"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "super-duolingo",
+            "name" : "Super Duolingo",
+            "price" : "12.49"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "super-duolingo",
+            "name" : "Super Duolingo",
+            "price" : "161"
+          }
+        ]
+      },
       "US" : {
         "currency" : "USD",
         "plans" : [
@@ -415,6 +1274,228 @@
             "id" : "plan1",
             "name" : "Premium",
             "price" : "249"
+          }
+        ]
+      }
+    },
+    "google-one" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "9.99"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "14.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "49.99"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "1.99"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "9.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "1.99"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "9.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "1.99"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "9.99"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "1.79"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "7.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "1.99"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "9.99"
+          }
+        ]
+      },
+      "JP" : {
+        "currency" : "JPY",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "290"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "440"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "1450"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "2500"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "3900"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "12000"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "39"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "59"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "199"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "70"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "90"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "330"
+          }
+        ]
+      },
+      "US" : {
+        "currency" : "USD",
+        "plans" : [
+          {
+            "id" : "100-gb",
+            "name" : "100 GB",
+            "price" : "1.99"
+          },
+          {
+            "id" : "200-gb",
+            "name" : "200 GB",
+            "price" : "2.99"
+          },
+          {
+            "id" : "google-ai-plus-2-tb",
+            "name" : "Google AI Plus (2 TB)",
+            "price" : "9.99"
           }
         ]
       }
@@ -509,6 +1590,146 @@
       }
     },
     "max" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "basic-with-ads",
+            "name" : "Basic with ads",
+            "price" : "29.90"
+          },
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "44.90"
+          },
+          {
+            "id" : "platinum",
+            "name" : "Platinum",
+            "price" : "55.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "basic-with-ads",
+            "name" : "Basic with Ads",
+            "price" : "5.99"
+          },
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "11.99"
+          },
+          {
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "16.99"
+          },
+          {
+            "id" : "premium-sports",
+            "name" : "Premium & Sports",
+            "price" : "19.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "basic-with-ads",
+            "name" : "Basic with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "10.99"
+          },
+          {
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "15.99"
+          },
+          {
+            "id" : "premium-sports",
+            "name" : "Premium & Sports",
+            "price" : "20.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "basic-with-ads",
+            "name" : "Basic with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "10.99"
+          },
+          {
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "15.99"
+          },
+          {
+            "id" : "premium-sports",
+            "name" : "Premium & Sports",
+            "price" : "20.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "basic-with-ads",
+            "name" : "Basic with Ads",
+            "price" : "6.99"
+          },
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "11.99"
+          },
+          {
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "16.99"
+          },
+          {
+            "id" : "premium-sports",
+            "name" : "Premium & Sports",
+            "price" : "19.99"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "basic-with-ads",
+            "name" : "Basic with ads",
+            "price" : "149"
+          },
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "239"
+          },
+          {
+            "id" : "platinum",
+            "name" : "Platinum",
+            "price" : "299"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -521,6 +1742,21 @@
             "id" : "plan2",
             "name" : "Standart",
             "price" : "229.92"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "standard",
+            "name" : "Standard",
+            "price" : "220"
+          },
+          {
+            "id" : "premium",
+            "name" : "Premium",
+            "price" : "299"
           }
         ]
       },
@@ -546,6 +1782,256 @@
       }
     },
     "microsoft-365" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "9.90"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "59.90"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "60.00"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "109.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "1.99"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "10.00"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "13.00"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "22.00"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "1.99"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "10.00"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "13.00"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "22.00"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "1.99"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "10.00"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "13.00"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "22.00"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "1.99"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "8.49"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "10.49"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "18.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "1.99"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "10.00"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "13.00"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "22.00"
+          }
+        ]
+      },
+      "JP" : {
+        "currency" : "JPY",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "260"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "2100"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "2700"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "3200"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "3300"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "12500"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "15500"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "29000"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "39"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "184"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "225"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "375"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "microsoft-365-basic",
+            "name" : "Microsoft 365 Basic",
+            "price" : "60"
+          },
+          {
+            "id" : "microsoft-365-personal",
+            "name" : "Microsoft 365 Personal",
+            "price" : "310"
+          },
+          {
+            "id" : "microsoft-365-family",
+            "name" : "Microsoft 365 Family",
+            "price" : "420"
+          },
+          {
+            "id" : "microsoft-365-premium",
+            "name" : "Microsoft 365 Premium",
+            "price" : "670"
+          }
+        ]
+      },
       "US" : {
         "currency" : "USD",
         "plans" : [
@@ -554,6 +2040,66 @@
       }
     },
     "netflix" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "44.90"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "55.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "13.99"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "19.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "14.99"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "21.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "14.99"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "21.99"
+          }
+        ]
+      },
       "GB" : {
         "currency" : "GBP",
         "plans" : [
@@ -594,6 +2140,61 @@
           }
         ]
       },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "13.99"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "19.99"
+          }
+        ]
+      },
+      "JP" : {
+        "currency" : "JPY",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "1590"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "2290"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "13500"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "17000"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "269"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -611,6 +2212,26 @@
             "id" : "netflix-premium",
             "name" : "Netflix Premium",
             "price" : "379.99"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "netflix-basic",
+            "name" : "Netflix Basic",
+            "price" : "290"
+          },
+          {
+            "id" : "netflix-standard",
+            "name" : "Netflix Standard",
+            "price" : "380"
+          },
+          {
+            "id" : "netflix-premium",
+            "name" : "Netflix Premium",
+            "price" : "460"
           }
         ]
       },
@@ -825,6 +2446,86 @@
       }
     },
     "youtube" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "21.90"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "34.90"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "69.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "10.99"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "19.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "36.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "11.99"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "20.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "38.99"
+          }
+        ]
+      },
+      "FR" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "9.99"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "16.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "38.99"
+          }
+        ]
+      },
       "GB" : {
         "currency" : "GBP",
         "plans" : [
@@ -855,6 +2556,61 @@
           }
         ]
       },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "11.99"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "20.99"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "38.99"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "10900"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "19500"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "premium-lite",
+            "name" : "Premium Lite",
+            "price" : "129"
+          },
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "209"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "419"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -872,6 +2628,26 @@
             "id" : "premium-lite",
             "name" : "Premium Lite",
             "price" : "99.99"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "youtube-premium",
+            "name" : "YouTube Premium",
+            "price" : "260"
+          },
+          {
+            "id" : "youtube-premium-two-person",
+            "name" : "YouTube Premium Two-person",
+            "price" : "390"
+          },
+          {
+            "id" : "youtube-premium-family",
+            "name" : "YouTube Premium Family",
+            "price" : "630"
           }
         ]
       },
@@ -897,6 +2673,106 @@
       }
     },
     "youtube-music" : {
+      "BR" : {
+        "currency" : "BRL",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "28.90"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "45.90"
+          }
+        ]
+      },
+      "DE" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "15.99"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "24.99"
+          }
+        ]
+      },
+      "ES" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "15.99"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "25.99"
+          }
+        ]
+      },
+      "GB" : {
+        "currency" : "GBP",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "14.99"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "22.99"
+          }
+        ]
+      },
+      "IT" : {
+        "currency" : "EUR",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "15.99"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "25.99"
+          }
+        ]
+      },
+      "KR" : {
+        "currency" : "KRW",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "15500"
+          }
+        ]
+      },
+      "MX" : {
+        "currency" : "MXN",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "169"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "259"
+          }
+        ]
+      },
       "TR" : {
         "currency" : "TRY",
         "plans" : [
@@ -914,6 +2790,21 @@
             "id" : "plan3",
             "name" : "Öğrenci",
             "price" : "49.99"
+          }
+        ]
+      },
+      "TW" : {
+        "currency" : "TWD",
+        "plans" : [
+          {
+            "id" : "youtube-music",
+            "name" : "YouTube Music",
+            "price" : "220"
+          },
+          {
+            "id" : "youtube-music-family",
+            "name" : "YouTube Music Family",
+            "price" : "350"
           }
         ]
       },
@@ -949,5 +2840,5 @@
       }
     }
   },
-  "updated" : "2026-10-10T17:32:15Z"
+  "updated" : "2026-10-10T17:43:05Z"
 }
