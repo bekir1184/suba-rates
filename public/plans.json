@@ -2,7 +2,7 @@
   "names" : {
     "amazon-prime" : "amazon-prime",
     "apple-music" : "apple-music",
-    "apple-tv" : "Apple TV",
+    "audible" : "Audible",
     "bein-connect" : "beIN CONNECT",
     "chatgpt" : "ChatGPT",
     "disney-plus" : "disney-plus",
@@ -87,11 +87,60 @@
         ]
       }
     },
-    "apple-tv" : {
-      "GB" : {
-        "currency" : "GBP",
+    "audible" : {
+      "TR" : {
+        "currency" : "TRY",
         "plans" : [
-
+          {
+            "id" : "us-premium-monthly",
+            "name" : "US Premium Monthly",
+            "price" : "107.99"
+          },
+          {
+            "id" : "uk-premium-monthly",
+            "name" : "UK Premium Monthly",
+            "price" : "369.00"
+          },
+          {
+            "id" : "uk-premium-monthly-2",
+            "name" : "UK Premium Monthly",
+            "price" : "73.99"
+          },
+          {
+            "id" : "us-premium-monthly-2",
+            "name" : "US Premium Monthly",
+            "price" : "369.99"
+          },
+          {
+            "id" : "uk-audible-ios-standard-plan",
+            "name" : "UK - Audible iOS Standard Plan",
+            "price" : "219.00"
+          },
+          {
+            "id" : "de-audible-ios-monthly",
+            "name" : "DE - Audible iOS Monthly",
+            "price" : "189.99"
+          },
+          {
+            "id" : "us-premium-plus-monthly",
+            "name" : "US Premium Plus Monthly",
+            "price" : "114.99"
+          },
+          {
+            "id" : "us-plus-monthly",
+            "name" : "US Plus Monthly",
+            "price" : "53.99"
+          },
+          {
+            "id" : "de-audible-ios-monthly-2",
+            "name" : "DE - Audible iOS Monthly",
+            "price" : "229.99"
+          },
+          {
+            "id" : "audible-ios-standard-plan",
+            "name" : "Audible iOS Standard Plan",
+            "price" : "399.99"
+          }
         ]
       }
     },
@@ -487,5 +536,5 @@
       }
     }
   },
-  "updated" : "2026-10-10T16:37:37Z"
+  "updated" : "2026-10-10T16:51:04Z"
 }
