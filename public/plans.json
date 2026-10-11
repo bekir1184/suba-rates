@@ -444,7 +444,7 @@
           {
             "id" : "plan1",
             "name" : "Taraftar Paketi (Kutusuz)",
-            "price" : "479 "
+            "price" : "479"
           },
           {
             "id" : "plan2",
@@ -701,17 +701,17 @@
           {
             "id" : "plan1",
             "name" : "Go",
-            "price" : "249,99"
+            "price" : "249.99"
           },
           {
             "id" : "plan2",
             "name" : "Plus",
-            "price" : "999,99"
+            "price" : "999.99"
           },
           {
             "id" : "plan3",
             "name" : "Pro 100",
-            "price" : "5.300"
+            "price" : "5300"
           },
           {
             "id" : "plan4",
@@ -1251,17 +1251,17 @@
           {
             "id" : "plan1",
             "name" : "Premium+",
-            "price" : "149,99 "
+            "price" : "149.99"
           },
           {
             "id" : "plan2",
             "name" : "Bireysel Müzik",
-            "price" : "69,99 "
+            "price" : "69.99"
           },
           {
             "id" : "plan3",
             "name" : "Öğrenci Müzik",
-            "price" : "20,99"
+            "price" : "20.99"
           }
         ]
       }
@@ -1736,7 +1736,7 @@
           {
             "id" : "plan1",
             "name" : "Premium",
-            "price" : "299,98"
+            "price" : "299.98"
           },
           {
             "id" : "plan2",
@@ -2408,7 +2408,7 @@
           {
             "id" : "plan2",
             "name" : "Süper Lig Paketi(Aylık)",
-            "price" : " 1.590"
+            "price" : "1590"
           },
           {
             "id" : "plan3",
@@ -2435,12 +2435,12 @@
           {
             "id" : "plan1",
             "name" : "Aylık Paket",
-            "price" : "229,99"
+            "price" : "229.99"
           },
           {
             "id" : "plan2",
             "name" : "Yıllık Paket (12 Ay Sözleşmeli)",
-            "price" : "199,99 "
+            "price" : "199.99"
           }
         ]
       }
@@ -2840,5 +2840,5 @@
       }
     }
   },
-  "updated" : "2026-10-10T17:43:05Z"
+  "updated" : "2026-10-11T19:45:00Z"
 }
